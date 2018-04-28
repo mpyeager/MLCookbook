@@ -4,7 +4,7 @@
 from sklearn.datasets import make_blobs
 
 # Generate feature matrix and target vector
-features, target, coefficients = make_blobs(n_samples = 100,
+features, target = make_blobs(n_samples = 100,
                                                  n_features = 2,
                                                  centers = 3,
                                                  cluster_std = 0.5,
