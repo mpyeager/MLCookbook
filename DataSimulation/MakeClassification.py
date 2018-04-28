@@ -3,8 +3,8 @@
 # Load library
 from sklearn.datasets import make_classification
 
-# Generate features matrix, target vector, and the true coefficients
-features, target, coefficients = make_classification(n_samples = 100,
+# Generate features matrix and target vector
+features, target = make_classification(n_samples = 100,
                                                  n_features = 3,
                                                  n_informative = 3,
                                                  n_redundant = 0,
