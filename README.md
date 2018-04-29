@@ -1,2 +1,2 @@
 # MLCookbook
-Machine learning cookbook
+Machine learning 'recipes' organised into folders based on task.
