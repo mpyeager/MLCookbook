@@ -1,4 +1,4 @@
-# Simple example block of code for using FileWriter with TensorFlow.
+# Simple example block of code for using FileWriter with TensorFlow,
 
 import tensorflow as tf 
 
@@ -11,3 +11,8 @@ z3 = z2 - z1
 with tf.Session() as sess:
 	with tf.summary.FileWriter('summaries', sess.graph) as writer:
 		a1, a3 = sess.run([z1, z3])
+
+# Given above, simple example blaock of code to visualise TF graph with TensorBoard
+
+from google.datalab.ml import TensorBoard
+TensorBoard().start('./summaries')
