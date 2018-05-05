@@ -16,3 +16,4 @@ with tf.Session() as sess:
 
 from google.datalab.ml import TensorBoard
 TensorBoard().start('./summaries')
+
